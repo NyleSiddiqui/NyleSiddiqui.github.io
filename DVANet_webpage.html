@@ -248,9 +248,6 @@
       <h2 class="content has-text-justified">
         Conceptual visualization of learned action and view features plotted on the x- and y-axes, respectively, from different learning objectives. a) Traditional feature learning for multi-view action recognition may lead to view features becoming entangled in the action embedding space, causing different action classes to erroneously cluster due to similar viewpoints. b) View-invariant action features will properly cluster by action class, but the disentangled view features do not cluster properly. c) Our method disentangles the view features from the action features while still retaining the structure of both embedding spaces, improving performance on unseen viewpoints.
       </h2>
-      <div class="column is-centered">
-        <img style="display: flex; width: 40%; height: 40%; margin: auto;" src="./static/images/mgfn_magcon.png">
-      </div>
     </div>
   
 </section>
@@ -271,6 +268,22 @@
       </h2>
       <img src="./static/images/results_table.png">
 
+    </div>
+  </div>
+</section>
+
+	<section class="section" id="conclusion">
+  <div class="container is-max-desktop">
+    <h2 class="title is-4">Conclusion</h2>
+    <div class="column has-text-justified">
+      <h2 class="content has-text-justified">
+        <p>
+          In this paper, we propose a novel transformer decoder-based architecture in tandem with two supervised contrastive losses for multiview action recognition. By disentangling the view-relevant features from action-relevant features, we enable our model to learn action features that are robust to change in viewpoints. We show through various ablations, analyses, and visualizations that changes in viewpoint impart perturbations on learned action features. Thus, disentangling these perturbations improves overall action recognition performance. Uni-modal state-of-the-art performance is attained on four large-scale multi-view action recognition datasets, highlighting the efficacy of our method.
+        </p>
+        <p>
+          For more technical details and results, check out our attached main paper.
+        </p>
+      </h2>
     </div>
   </div>
 </section>
