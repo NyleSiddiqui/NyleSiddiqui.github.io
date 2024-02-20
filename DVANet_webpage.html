@@ -228,28 +228,25 @@
 </section>
 
 
- <section class="section" id="paper-details">
+  <section class="section" id="paper-details">
 	<div class="container is-max-desktop">
 		<div class="columns is-centered">
-			<h2 class="title is-4">Disentangled Representation Learning</h2>
-			 <img style="padding-top:10px" src="images/motivation.png">
-			    <div class="column has-text-justified">
-			      <h2 class="content has-text-justified">
-	        Conceptual visualization of learned action and view features plotted on the x- and y-axes, respectively, from different learning objectives. a) Traditional feature learning for multi-view action recognition may lead to view features becoming entangled in the action embedding space, causing different action classes to erroneously cluster due to similar viewpoints. b) View-invariant action features will properly cluster by action class, but the disentangled view features do not cluster properly. c) Our method disentangles the view features from the action features while still retaining the structure of both embedding spaces, improving performance on unseen viewpoints.
-     				</h2>
-			    </div>
-			<h2 class="title is-3">Paper Details</h2>
-	
-			    <h2 class="title is-4">Method Diagram</h2>
-			    <div class="column has-text-justified">
-			      <div class="method-diagram">
-			        <img style="padding-top:10px" src="images/model.png">
-			        <h2 class="content has-text-justified">
-			         First, our spatio-temporal encoder extracts global features from a video. A transformer decoder is used to separately extract action and view features with the help of learnable action and view queries. In addition to the classification loss to predict the action and view, we also introduce contrastive loss to learn disentangled view and action representations.
-      </div>
+			 <h2 class="title is-4">Disentangled Representation Learning</h2>
+	 <img style="padding-top:10px" src="images/motivation.png">
+    <div class="column has-text-justified">
+      <h2 class="content has-text-justified">
+        Conceptual visualization of learned action and view features plotted on the x- and y-axes, respectively, from different learning objectives. a) Traditional feature learning for multi-view action recognition may lead to view features becoming entangled in the action embedding space, causing different action classes to erroneously cluster due to similar viewpoints. b) View-invariant action features will properly cluster by action class, but the disentangled view features do not cluster properly. c) Our method disentangles the view features from the action features while still retaining the structure of both embedding spaces, improving performance on unseen viewpoints.
+      </h2>
     </div>
-
-
+			<h2 class="title is-3">Paper Details</h2>
+		</div>
+    <h2 class="title is-4">Method Diagram</h2>
+    <div class="column has-text-justified">
+      <div class="method-diagram">
+        <img style="padding-top:10px" src="images/model.png">
+        <h2 class="content has-text-justified">
+         First, our spatio-temporal encoder extracts global features from a video. A transformer decoder is used to separately extract action and view features with the help of learnable action and view queries. In addition to the classification loss to predict the action and view, we also introduce contrastive loss to learn disentangled view and action representations.
+      </div>
     </div>
   
 </section>
